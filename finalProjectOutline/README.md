@@ -4,9 +4,13 @@ Final Project
 
 ### Github Link
 
+https://github.com/GarciaEy/N220/tree/main/finalProjectOutline
+
 ### Major Features
 
-https://github.com/GarciaEy/N220/tree/main/finalProjectOutline
+- Allow users to add & remove tasks to the list or mark them as complete
+- Allow users to change the text of the task and add any additonal properties to said task
+- user only sees tasks theyve created and make sure specific tasks are assigned to a specific user
 
 **Login Form**
 
