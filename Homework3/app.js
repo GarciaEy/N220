@@ -4,7 +4,8 @@ function calculateInterest() {
   const time = parseFloat(document.getElementById("time").value);
 
   const total = principle * (1 + rate * time);
-  const interest = total - principle;
+  const interest = (total - principle) / 100;
+  const grandTotal = principle + interest;
 
   document.getElementById(
     "result"
@@ -14,5 +15,5 @@ function calculateInterest() {
     2
   )} years, your total interest will be $${interest.toFixed(
     2
-  )} with a grand total of $${total.toFixed(2)}.`;
+  )} with a grand total of $${grandTotal.toFixed(2)}.`;
 }
