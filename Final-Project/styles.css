@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+body {
+  background-color: #90ee9075;
+}
+
+h1 {
+  background-color: #f08080;
+  padding: 16px;
+}
+
+h2 {
+  /* background-color: #f08080; */
+  padding: 16px;
+}
+
+.user-wrapper {
+  /* background-color: green; */
+}
+
+label {
+  margin-left: 30px;
+  /* background-color: red; */
+}
+
+input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.login-btn {
+  background-color: #4f414f;
+  color: white;
+  padding: 10px 15px;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-left: 30px;
+  display: flex;
+}
+
+.task-btn {
+  background-color: #4f414f;
+  color: white;
+  padding: 10px 15px;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-left: 30px;
+  justify-content: space-between;
+  margin-right: 1270px;
+}
+.logout-btn {
+  background-color: #4f414f;
+  color: white;
+  padding: 10px 15px;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+span {
+  /* background-color: green;
+  margin-bottom: 30px; */
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.task {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 350px;
+  height: 100px;
+  padding: 8px;
+  margin: 4px 0;
+  margin-left: 30px;
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task-name {
+  /* background-color: blue; */
+  height: 20px;
+}
+
+.task button {
+  margin: 20px 5px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background-color: darkred;
+  color: white;
+  position: relative;
+  right: 90px;
+  top: 20px;
+}
+
+.change-btn {
+  background-color: cornflowerblue;
+  color: white;
+  position: relative;
+  right: 90px;
+  top: 20px;
+}
+
+.category {
+  padding: 5px;
+  /* background-color: red; */
+  position: relative;
+  left: 190px;
+  bottom: 28px;
+}
+
+.task .task-name.strikethrough {
+  text-decoration: line-through;
+}
